@@ -1,0 +1,50 @@
+.tree-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.tree-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.node {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px; /* Increase the vertical space between nodes */
+}
+
+.node-label {
+  margin-bottom: 5px; /* Add space between the label and the input */
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.node-input {
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+  border-radius: 50%;
+  border: 2px solid #38a169;
+  outline: none;
+  text-align: center;
+}
+
+
+.child-container {
+  display: flex;
+  justify-content: space-between;
+  width: 300px; /* Increase the horizontal space between child nodes */
+  position: relative;
+  margin-top: 20px; /* Increase the vertical space between parent and child nodes */
+}
+
+.level-input {
+  margin-bottom: 20px;
+  padding: 5px;
+  font-size: 16px;
+}
